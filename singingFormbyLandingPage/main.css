@@ -1,0 +1,276 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  color: #444;
+  font-size: 112.5%;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4{
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 4em;
+  text-align: center;
+  margin-top: 0.5em;
+}
+h2{
+  font-size: 3em;
+  text-align: center;
+}
+h3{
+  font-size: 1.8em;
+}
+h4{
+  font-size: 1.5em;
+}
+
+hr{
+  background-color: #E8D69E;
+  height: 1px;
+  border: 0;
+  max-width: 70em;
+  margin: 3em auto;
+  width: 90%;
+}
+
+.center{
+  max-width: 70em;
+  margin: 0 auto;
+  width: 90%;
+}
+
+#header{
+  height: 14em;
+  margin-bottom: 1em;
+}
+
+#profilePhoto{
+  float: left;
+  width: 20%;
+  height: 14em;
+  background-image: url("imgs/profilePhoto.jpg");
+  background-size: cover;
+  background-position: center 0;
+}
+
+#quote{
+  float: right;
+  width: 78%;
+  height: 9.3333em;
+  text-align: center;
+  font-size: 1.5em;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center; 
+}
+
+#phone, #email{
+  background-color: #E8D69E;
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 3em;
+  height: 3em;
+  border-radius: 3em;
+  float: left;
+  margin-right: 1em;
+}
+
+#contactBox{
+  height: 8em;
+}
+.halfBox{
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+  padding: 0;
+}
+
+#phone{
+  background-image: url("imgs/phone.png");
+}
+
+#email{
+  background-image: url("imgs/email.png");
+}
+
+#distinction{
+  height: 22em;
+  background-image: url("imgs/distinctionFromLessons.jpg");
+  background-size: cover;
+  background-position: center 18%;
+  background-repeat: no-repeat;
+}
+
+#examsBox{
+  height: 23em;
+}
+
+.bigFont{
+  height: 2.5em;
+  font-size: 1.1em;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center; 
+}
+
+#highlight{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  background-color: #E3901C;
+  color: #FFF;
+}
+
+.testimonial{
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0 1em;
+  color: #E3901C;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  color: #444;
+}
+
+a:hover{
+  color: #999;
+}
+
+#performance{
+  height: 22em;
+}
+
+#experience{
+  height: 14em;
+}
+
+#formbyLivePhoto{
+  height: 22em;
+  background-image: url("imgs/singingStudent2.jpg");
+  background-size: cover;
+  background-postion: 30% 20%;
+  background-repeat: no-repeat;
+}
+
+#formbyLivePhoto2{
+  height: 22em;
+  background-image: url("imgs/singingStudent4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#coachingAPerformance1, #coachingAPerformance2{
+  height: 22em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#coachingAPerformance1{
+  background-image: url("imgs/singingStudent1.jpg");
+  background-position: 30% center;
+}
+#coachingAPerformance2{
+  background-image: url("imgs/singingStudent3.jpg");
+  background-position: 10% center;
+}
+#coachingPhotos{
+  height: 22em;
+  padding: 0;
+}
+
+.paddedLeft{
+  padding-left: 1em;
+  text-align: justify;
+}
+
+.paddedRight{
+  padding-right: 1em;
+  text-align: justify;
+}
+
+.paddedLeft, .paddedRight{
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center; 
+  height: 22em;
+}
+
+/* Now switch when we go to a tablet sized browser */
+@media only screen and (max-height: 800px){
+  h1{
+    font-size: 3em;
+  }
+  h2{
+    font-size: 2em;
+  }
+  #quote{
+    font-size: 1.3em;
+    height: 7em;
+  }
+  #profilePhoto{
+    margin-top: -2em;
+    height: 14em;
+  }
+  #header{
+    height: 10em;
+  }
+}
+
+/* Now switch when we go to a mobile device */
+@media only screen and (max-width: 768px){
+  body{
+    font-size: 90%;
+  }
+  #profilePhoto{
+    width: 30%;
+    margin: -2em auto 0 auto;
+    height: 13em;
+    float: none;
+  }
+  #quote{
+    float: none;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.4em;
+    display: block;
+    padding: 0.5em;
+    margin-bottom: -2em;
+    align-items: initial;
+    -webkit-align-items: initial; 
+  }
+  #header{
+    height: auto;
+    text-align: center;
+  }
+  #highlight{
+    margin-top: -2em;
+  }
+  .halfBox{
+    width: 100%;
+  }
+  .paddedLeft, .paddedRight{
+    padding: 0;
+    height: auto;
+    display: block;
+  }
+}
