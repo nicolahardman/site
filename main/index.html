@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Nicola Hardman</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+    <script src="https://use.fontawesome.com/61f1649890.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- FB messenger plugin -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Nav bar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" id="myNavHolder">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+			<a class="navbar-brand" id="myBrand" href="#">NICOLA HARDMAN</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#music">Music</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Footer -->
+<div class="container" id="myFooter">
+    <div id="myIconGroup">
+        <a target="_blank" href="https://www.facebook.com/nicolahardmanmusic/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://twitter.com/nicola_hardman"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://www.instagram.com/nicola.hardman/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://open.spotify.com/artist/2VWsZFLXkcmf2EK5edMZSd"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://itunes.apple.com/us/artist/nicola-hardman/1062151556"><i class="fa fa-apple" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://www.youtube.com/user/nicolaahardman/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+    </div>
+</div>
+
+<!-- Home -->
+<a name="home"></a>
+<div class="container-fluid fullheight" id="homeHolder">
+    <h1>NICOLA HARDMAN</h1>
+</div>
+
+<!-- About -->
+<a name="about"></a>
+<div class="container fullHeight">
+    <h2 class="text-center text-uppercase">About</h2>
+    <div class="halfBox">
+        This is some text about me
+    </div>
+    <div class="halfBox" id="aboutImage"></div>
+</div>
+
+<!-- Music -->
+<a name="music"></a>
+<div class="container-fluid fullHeight" id="musicHolder">
+    <div class="container fullHeight">
+        <h2 class="text-center text-uppercase">Music</h2>
+        <div class="halfBox" id="spotifyHolder">
+            <!--iframe id="spotify" src="https://open.spotify.com/embed?uri=spotify:artist:2VWsZFLXkcmf2EK5edMZSd" width="300" height="600" frameborder="0" allowtransparency="true"></iframe-->
+        </div>
+        <div class="halfBox">
+            This is some text about my music
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<a name="contact"></a>
+<div class="container fullHeight" id="contactHolder">
+    <h2 class="text-center text-uppercase">Contact me</h2>
+    <div class="halfBox">
+        This is how to contact me
+    </div>
+    <div class="halfBox" id="messengerPlugin">
+		<div class="fb-page" data-href="https://www.facebook.com/nicolahardmanmusic/" data-tabs="messages" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+			<blockquote cite="https://www.facebook.com/nicolahardmanmusic/" class="fb-xfbml-parse-ignore">
+				<a href="https://www.facebook.com/nicolahardmanmusic/">Nicola Hardman</a>
+			</blockquote>
+		</div>
+	</div>
+</div>
+		
+
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Header */
+#myNavHolder {
+    font-size: 120%;
+    border: 0;
+}
+
+#myBrand {
+    font-size: 180%;
+}
+
+/* Footer */
+#myFooter {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    z-index: 1000;
+}
+
+#myIconGroup {
+    width: 100%;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    max-width: 320px;
+}
+
+#myFooter a {
+    color: #111;
+    margin: 10px;
+}
+
+#myFooter a:hover {
+    color: #C11F3F;
+}
+
+/* Generic page */
+.fullHeight {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #C11F3F;
+}
+
+.fullHeight h2 {
+    margin: 70px 0 30px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.halfBox {
+    width: 100%;
+    margin: 5px auto 5px auto;
+}
+
+@media (min-width: 768px) {
+    .halfBox {
+        width: 45%;
+    }
+}
+
+/* Home */
+#homeHolder {
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    background-image: url(imgs/home.jpg);
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homeHolder h1 {
+    font-size: 500%;
+    margin: 70px;
+}
+
+/* About */
+#aboutImage {
+    height: 600px;
+    background-image: url(imgs/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Music */
+#musicHolder {
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    background-image: url(imgs/music.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+#spotifyHolder {
+    height: 600px;
+}
+
+#spotify {
+    width: 100%;
+}
+
+/* Contact */
+#contactHolder {
+    margin-bottom: 50px;
+}
