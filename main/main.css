@@ -130,4 +130,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Contact */
 #contactHolder {
     margin-bottom: 50px;
+}
 
+#messengerHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#messenger {
+    width: 440px;
+}
