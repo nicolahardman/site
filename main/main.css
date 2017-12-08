@@ -15,33 +15,28 @@ html, body {
 }
 
 /* Footer */
-#myFooter {
-    position: fixed;
-    bottom: 10px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    z-index: 1000;
+.affix {
+	bottom: 10px;
+	width: 100%;
+	z-index: 9999 !important;
 }
 
 #myIconGroup {
     width: 100%;
+    max-width: 300px;
     font-size: 25px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.2);
-    max-width: 320px;
+    text-align: center;
 }
 
-#myFooter a {
-    color: #111;
+#myIconGroup a {
+    color: #C11F3F;
     margin: 10px;
 }
 
-#myFooter a:hover {
-    color: #C11F3F;
+#myIconGroup a:hover {
+    color: #111;
 }
 
 /* Generic page */
@@ -133,11 +128,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #messengerHolder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#messenger {
-    width: 440px;
+    text-align: center;
 }
